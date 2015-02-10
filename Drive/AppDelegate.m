@@ -17,6 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    sleep(5); //wait here if needed for start image to be observed properly
     return YES;
 }
 
